@@ -42,9 +42,23 @@ li:first-letter {
 #temperature {
   font-size: 60px;
 }
-.degrees {
-  font-size: 20px;
-}
+
 #description {
   font-size: 30px;
+}
+
+.units {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.units .active {
+  color: rgb(135, 135, 135);
+  text-decoration: none;
+}
+
+.units .active:hover {
+  color: rgb(135, 135, 135);
+  text-decoration: none;
+  cursor: default;
 }
